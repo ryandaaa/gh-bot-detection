@@ -1,0 +1,3 @@
+blok,akun,label_bot,ROC-AUC IF,PR-AUC IF,ROC-AUC volume,PR-AUC volume,presisi di top-k,k,PR-AUC acak
+A,29055,767,0.774,0.171,0.595,0.055,0.173,1453,0.026
+B,15213,584,0.781,0.215,0.593,0.077,0.256,761,0.038

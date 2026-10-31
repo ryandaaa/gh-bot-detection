@@ -1,0 +1,20 @@
+kueri,jam,dokumen,tanpa_indeks_dtk,rencana_tanpa_indeks,status_tanpa_indeks,dengan_indeks_dtk,rencana_dengan_indeks,status_dengan_indeks,indeks_dipakai,percepatan_x,batas_bawah
+Q1 event per tipe,6,490725,6.152,COLLSCAN,ok,0.778,IXSCAN,ok,ts_1,7.9,False
+Q1 event per tipe,12,981326,,,,1.352,IXSCAN,ok,ts_1,,False
+Q1 event per tipe,24,1864673,5.899,COLLSCAN,ok,2.433,IXSCAN,ok,ts_1,2.4,False
+Q1 event per tipe,48,3775448,,,,4.77,IXSCAN,ok,ts_1,,False
+Q1 event per tipe,78,6244807,7.232,COLLSCAN,ok,8.572,IXSCAN,ok,ts_1,0.8,False
+Q2 event per jam,6,490725,6.213,COLLSCAN,ok,0.692,IXSCAN,ok,ts_1,9.0,False
+Q2 event per jam,12,981326,,,,1.171,IXSCAN,ok,ts_1,,False
+Q2 event per jam,24,1864673,6.639,COLLSCAN,ok,2.067,IXSCAN,ok,ts_1,3.2,False
+Q2 event per jam,48,3775448,,,,4.011,IXSCAN,ok,ts_1,,False
+Q2 event per jam,78,6244807,10.728,COLLSCAN,ok,6.51,IXSCAN,ok,ts_1,1.6,False
+Q3 10 akun teraktif,6,490725,5.951,COLLSCAN,ok,1.146,IXSCAN,ok,ts_1,5.2,False
+Q3 10 akun teraktif,12,981326,,,,2.086,IXSCAN,ok,ts_1,,False
+Q3 10 akun teraktif,24,1864673,7.192,COLLSCAN,ok,3.702,IXSCAN,ok,ts_1,1.9,False
+Q3 10 akun teraktif,48,3775448,,,,7.412,IXSCAN,ok,ts_1,,False
+Q3 10 akun teraktif,78,6244807,11.532,COLLSCAN,ok,12.431,IXSCAN,ok,ts_1,0.9,False
+"Q4 semua event satu akun (akun median, 17 event)",0,17,5.9508,COLLSCAN,ok,6.1483,COLLSCAN,ok,-,1.0,False
+"Q4 semua event satu akun (akun p90, 61 event)",0,61,6.0019,COLLSCAN,ok,6.1104,COLLSCAN,ok,-,1.0,False
+"Q4 semua event satu akun (akun terbanyak, 1033781 event)",0,1033781,23.59,COLLSCAN,ok,20.5704,COLLSCAN,ok,-,1.1,False
+Q5 bot: event per akun dalam satu blok (10 teratas),0,6244807,11.6,COLLSCAN,ok,11.22,COLLSCAN,ok,-,1.0,False
