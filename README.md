@@ -829,39 +829,6 @@ Penelitian ini mematuhi prinsip-prinsip etika rekayasa data dan privasi komputas
 3. **Prinsip "Kandidat Bot" (Non-Defamation):** Akun yang memiliki skor anomali tinggi didefinisikan secara akademis sebagai **"kandidat mirip-bot"** (*bot-like candidate*) berdasarkan keanehan statistik perilaku, bukan sebagai penetapan definitif akun berbahaya (*malicious actor*).
 4. **Sanitasi Kredensial:** Seluruh token otentikasi, kata sandi klaster, dan URI basis data telah disanitasi dari repositori dan hanya diakses melalui variabel lingkungan runtime (*Secrets Management*). Aturan *Network Access* `0.0.0.0/0` pada Atlas hanya diaktifkan secara temporer selama pengujian Colab berlangsung.
 
----
-
-## 9. Standar Sitasi & Publikasi Ilmiah
-
-Hasil penelitian ini disiapkan sesuai dengan standar penulisan artikel ilmiah pada **Journal of Intelligent Computing Methods (JICM)**. Jika Anda menggunakan dataset, metodologi, atau kode dari repositori ini, silakan sitasi karya ini sebagai berikut:
-
-### Format BibTeX
-```bibtex
-@article{anakri2026deteksi,
-  title     = {Deteksi dan Klasterisasi Akun Bot pada Aktivitas GitHub Menggunakan MongoDB Atlas, Isolation Forest, dan K-Means},
-  author    = {Anakri, Ryanda Valents and Kurniawan, Rahmad},
-  journal   = {Journal of Intelligent Computing Methods (JICM)},
-  year      = {2026},
-  volume    = {4},
-  number    = {2},
-  pages     = {112--128},
-  publisher = {Department of Information Systems, Universitas Riau},
-  doi       = {10.xxxx/jicm.2026.xxxx}
-}
-```
-
-### Format IEEE
-> R. V. Anakri and R. Kurniawan, "Deteksi dan Klasterisasi Akun Bot pada Aktivitas GitHub Menggunakan MongoDB Atlas, Isolation Forest, dan K-Means," *Journal of Intelligent Computing Methods (JICM)*, vol. 4, no. 2, pp. 112–128, 2026.
-
----
-
-## 10. Tim Peneliti & Pengakuan Kontribusi
-
-Proyek ini dilaksanakan sebagai bagian dari pemenuhan tugas **Project-Based Learning (PBL) Mata Kuliah Big Data (T.A. 2025/2026)** pada Program Studi S-1 Sistem Informasi, Jurusan Ilmu Komputer, Universitas Riau.
-
-- **Peneliti Utama:** Ryanda Valents Anakri (NIM: 2303113649) & Tim Kelompok 4 Big Data
-- **Dosen Pengampu & Pembimbing:** Assoc. Prof. Dr. Rahmad Kurniawan, ST., MIT.
-
 Kami menyampaikan apresiasi mendalam kepada tim penyedia layanan [GH Archive](https://www.gharchive.org/) atas penyediaan arsip publik aktivitas GitHub, serta [MongoDB for Academia](https://www.mongodb.com/academia) yang telah mendukung penyediaan infrastruktur komputasi awan klaster Atlas M10.
 
 ---
